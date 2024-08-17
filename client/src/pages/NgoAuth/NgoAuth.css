@@ -1,0 +1,109 @@
+.ngoRegister
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width:80%;
+    margin:auto;
+    margin-top: 10px;
+    background-color: white;
+    color:rgb(32, 32, 32);
+    justify-content: center;
+    align-items: center;
+
+}
+/* .bg 
+{
+    background-image: url('/bg2.jpg');
+    background-repeat: none;
+    background-size: cover;
+    background-position: center center;
+    opacity:0.7
+} */
+
+.ngoRegister h1{
+    margin-bottom: 0;
+}
+.generalInfo
+{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border: 2px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    margin-top: 50px;
+    width:90%;
+    background-color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.29);
+    /* margin:auto; */
+    /* margin-top:10px */
+}
+.generalInfo::before{
+    content: 'Details ';
+    position:absolute;
+    top:-15px;
+    left:4%;
+    font-size: 23px;
+    color: #888787;
+    font-weight: bold;
+    background: white
+}
+
+.contact::before{
+    content:'Contact Details'
+}
+.address::before
+{
+    content:"Location"
+}
+.password::before
+{
+    content:"Password Details"
+}
+
+.box 
+{
+   display: flex; 
+   gap:20px;
+   padding: 40px;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+}
+.box input
+{
+    width:30%;
+    height:40px;
+    text-align:center;
+    border-radius: 10px;
+    border:1px solid rgb(242, 172, 44);
+    font-size:18px;
+    font-weight:bold;
+    
+}
+.set
+{
+    justify-content: flex-start;
+}
+.set input{
+    margin-bottom: 20px;
+}
+.pass{
+    gap: 80px;
+    justify-content: center;
+}
+.submit
+{
+    margin-top: 30px;
+    width:140px;
+    padding:15px;
+    border-radius:40px;
+    font-size: 17px;
+    background-color: rgb(242, 172, 44);
+    color:white;
+    font-weight: bold;
+    border:none;
+    margin-bottom: 50px;
+
+}
